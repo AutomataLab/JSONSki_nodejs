@@ -1,7 +1,7 @@
 {
     "name": "jsonski",
     "version": "1.0.0",
-    "description": "NPM library",
+    "description": "NPM library for JSONSki for faster parsing of JSON data",
     "main": "index.js",
     "directories": {
       "doc": "doc",
