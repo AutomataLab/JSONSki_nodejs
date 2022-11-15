@@ -1,6 +1,6 @@
 {
     "targets": [{
-        "target_name": "testaddon",
+        "target_name": "JSONSki",
         "cflags!": [ "-fno-exceptions" ],
         "cflags_cc!": [ "-fno-exceptions" ],
         "sources": [

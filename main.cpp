@@ -10,7 +10,7 @@ Napi::Object InitAll(Napi::Env env, Napi::Object exports) {
 
 }
 
-NODE_API_MODULE(testaddon, InitAll)
+NODE_API_MODULE(JSONSki, InitAll)
 //InitAll and it takes two parameters which are passed by N-API. 
 //First parameter env is the context that needs to be passed on to most N-API function and exports is the object used to set 
 //the exported functions and classes via N-API.
