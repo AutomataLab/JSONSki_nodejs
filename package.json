@@ -1,5 +1,5 @@
 {
-    "name": "jsonski",
+    "name": "JSONSki",
     "version": "1.0.0",
     "description": "NPM library",
     "main": "index.js",
@@ -9,7 +9,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/AutomataLab/JSONSki.git"
+      "url": "git+https://github.com/AutomataLab/JSONSki_nodejs.git"
     },
     "keywords": [
       "JSON"
@@ -17,9 +17,9 @@
     "author": "Gandharva Deshpande <gandharva.deshpande@gmail.com>",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/AutomataLab/JSONSki/issues"
+      "url": "https://github.com/AutomataLab/JSONSki_nodejs/issues"
     },
-    "homepage": "https://github.com/AutomataLab/JSONSki#readme",
+    "homepage": "https://github.com/AutomataLab/JSONSki_nodejs#readme",
     "devDependencies": {
       "node-gyp": "^3.8.0"
     },
