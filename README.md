@@ -3,7 +3,14 @@ JSONSki is **a streaming JSONPath processor** with **fast-forward** functionalit
 
 
 ## NPM Package
- Node.js bindings for JSONSki, a faster JSON parser, currently the fastest JSON parser with an NPM package. JSONSki as well as jsonski_nodejs work on popular platforms such as OS X, Linux, and Windows.
+You can download the npm package from here - https://www.npmjs.com/package/jsonski
+
+## Installation
+```
+npm i jsonski
+```
+
+Node.js bindings for JSONSki, a faster JSON parser, currently the fastest JSON parser with an NPM package. JSONSki as well as jsonski_nodejs work on popular platforms such as OS X, Linux, and Windows.
 
 ## Usage
 Currently we only support a single interface function to query JSON data. However, we are actively working on developing more user friendly functions.
