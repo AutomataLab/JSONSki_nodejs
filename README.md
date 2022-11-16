@@ -16,7 +16,7 @@ Node.js bindings for JSONSki, a faster JSON parser, currently the fastest JSON p
 Currently we only support a single interface function to query JSON data. However, we are actively working on developing more user friendly functions.
 Below is an example usage of Jsonski npm package. 
 ```
-const JSki = require('./build/Release/JSONSki.node')
+const JSki = require('jsonski')
 const fs = require('fs');
 console.time();
 console.log('JsonSki Runtime', JSki.JSONSkiParser("$[*].entities.urls[*].url", "dataset/twitter_sample_large_record.json"));
