@@ -12,7 +12,7 @@ npm i jsonski
 
 Node.js bindings for JSONSki, a faster JSON parser, currently the fastest JSON parser with an NPM package. JSONSki as well as jsonski_nodejs work on popular platforms such as OS X, Linux, and Windows.
 
-## Usage
+## Usage and Support
 Currently we only support a single interface API to query preferrably large JSON data which needs to be present in a file. However, we are actively working on developing more user friendly functions.
 Below is an example usage of Jsonski npm package. 
 ```
