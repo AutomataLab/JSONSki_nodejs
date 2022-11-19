@@ -4,19 +4,14 @@
 
 std::string JsonSki::JSONSkiParser(std :: string query, std :: string file_paths){
     char* file_path = const_cast<char*>(file_paths.c_str());  
-    cout<<"start loading the single large record from "<<file_path<<endl;
     Record* rec = RecordLoader::loadSingleRecord(file_path);
-    cout<<rec;
     if (rec == NULL) {
         cout<<"record loading fails."<<endl;
         return "";
     }
-    cout<<"finish loading the single large record"<<endl;
-    cout<<"\nstart executing query "<<query<<endl;
     QueryProcessor processor(query);
-    string output = processor.runQuery(rec);
-    cout<<"finish query execution"<<endl;
-    cout<<"matches are: "<<output<<endl;
+    std::string output = processor.runQuery(rec);
+
     return output;
 }
 
