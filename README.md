@@ -47,7 +47,7 @@ The function returns a javascript string as the output of the given query.
 }
 ```
 
-Benchmarks:
+## Benchmarks
 Currently, the JSONSki_nodejs is faster than Javascript and SIMDJSON only for datasets > 400 Kbs. However, we are working on optimizing it further for smaller datasets to make JSONSki_nodejs performance on par with Native JSONSki 
 ```
 ✔ JSONSki vs Javascript         :  472 bytes
