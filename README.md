@@ -47,6 +47,43 @@ The function returns a javascript string as the output of the given query.
 }
 ```
 
+Benchmarks
+```
+✔ JSONSki vs Javascript         :  472 bytes
+
+   JsonSki          -86.12%            (636 rps)   (avg: 1ms)
+   Javascript (#)        0%          (4,581 rps)   (avg: 218μs)
+
+✔ JSONSki vs simDjson           :   177Kb
+
+   JsonSki        -36.93%            (609 rps)   (avg: 1ms)
+   simDjson (#)        0%            (966 rps)   (avg: 1ms)
+
+✔ JSONSki vs Javascript         :   177 Kb
+
+   JsonSki          +48.32%            (585 rps)   (avg: 1ms)
+   Javascript (#)        0%            (394 rps)   (avg: 2ms)
+
+✔ JSONSki vs Javascript         :    561Kb
+
+   JsonSki         +105.46%            (537 rps)   (avg: 1ms)
+   Javascript (#)        0%            (261 rps)   (avg: 3ms)
+
+
+✔  JSONSki vs simDjson           :   561Kb
+   
+   JsonSki       +112.29%            (577 rps)   (avg: 1ms)
+   simDjson (#)        0%            (272 rps)   (avg: 3ms)
+```
+
+Observations
+```
+for a JSON size > 300kb, JSONSki outperforms both SIMDJSON and Javascript parsing
+for a JSON size between 177kb and 300kb, JSONSki outperforms Javascript. However, SIMDJSON outperforms JSONSKi.
+For a JSON size < 100 Kb, Javascript outperforms both SIMDJSON and JSONSki
+```
+
+
 ## Getting Started
 ### JSONPath
 JSONPath is the basic query language of JSON data. It refers to substructures of JSON data in a similar way as XPath queries are used for XML data. For the details of JSONPath syntax, please refer to [Stefan Goessner's article](https://goessner.net/articles/JsonPath/index.html#e2). 
