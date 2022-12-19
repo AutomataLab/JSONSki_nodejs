@@ -53,7 +53,7 @@ The function returns a javascript string as the output of the given query.
 
 
 ## Benchmarking 
-Performance of JsonSki_nodejs is compared with simDjson and Javascript Parsing  - https://github.com/gandharva26/benchmarking-jsonski
+Performance of JsonSki_nodejs is compared with simDjson_nodejs and Javascript Parsing  - https://github.com/gandharva26/benchmarking-jsonski
 
 
 
