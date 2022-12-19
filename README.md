@@ -49,7 +49,8 @@ The function returns a javascript string as the output of the given query.
 
 ## Performance
 ```
-![image](https://user-images.githubusercontent.com/55717003/208404227-1bba0d24-57fc-4a00-97bd-16278fe08d57.png)
+![image](https://user-images.githubusercontent.com/55717003/208404929-49e0c162-77ff-4330-b579-ac5083aa1cb9.png)
+
 
 ```
 
