@@ -48,30 +48,15 @@ The function returns a javascript string as the output of the given query.
 ```
 
 ## Performance
-Currently, the JSONSki_nodejs is faster than Javascript and SIMDJSON only for datasets > 300 Kb. However, we are working on optimizing it further for smaller datasets to make JSONSki_nodejs performance on par with Native JSONSki 
 ```
-
-   
-✔ JSONSki vs Javascript         :    561Kb
-
-   JsonSki         +105.46%            (537 rps)   (avg: 1ms)
-   Javascript (#)        0%            (261 rps)   (avg: 3ms)
-
-
-✔  JSONSki vs simDjson           :   561Kb
-   
-   JsonSki       +112.29%            (577 rps)   (avg: 1ms)
-   simDjson (#)        0%            (272 rps)   (avg: 3ms)
-
+![image](https://user-images.githubusercontent.com/55717003/208404227-1bba0d24-57fc-4a00-97bd-16278fe08d57.png)
 
 ```
 
-Observations
-```
-for a JSON size > 300kb, JSONSki outperforms both SIMDJSON and Javascript parsing
-for a JSON size between 177kb and 300kb, JSONSki outperforms Javascript. However, SIMDJSON outperforms JSONSKi.
-For a JSON size < 100 Kb, Javascript outperforms both SIMDJSON and JSONSki
-```
+## Benchmarking 
+Performance of JsonSki_nodejs is compared with simDjson and Javascript Parsing  - https://github.com/gandharva26/benchmarking-jsonski
+
+
 
 
 ## Getting Started
