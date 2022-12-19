@@ -48,11 +48,9 @@ The function returns a javascript string as the output of the given query.
 ```
 
 ## Performance
-```
+
 ![image](https://user-images.githubusercontent.com/55717003/208404929-49e0c162-77ff-4330-b579-ac5083aa1cb9.png)
 
-
-```
 
 ## Benchmarking 
 Performance of JsonSki_nodejs is compared with simDjson and Javascript Parsing  - https://github.com/gandharva26/benchmarking-jsonski
