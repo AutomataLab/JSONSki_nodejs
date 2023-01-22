@@ -24,7 +24,7 @@ C++ Compiler: g++ (7.4.0 or higher)
 
 Before starting to use Node-API you need to assure you have the following prerequisites:
 
-**Node.JS (v12 and above)** see: [Installing Node.js](https://nodejs.org/)
+**Node.JS (v14 and above)** see: [Installing Node.js](https://nodejs.org/)
 
 **Python (v3.x and above)** see: [Installing Python](https://www.python.org/downloads/release/python-3100/)
 
