@@ -1,5 +1,6 @@
 # JSONSki
-JSONSki_Nodejs is Node.Js (Javascript) binding port for JSONSKI.
+JSONSki_Nodejs is the Node.Js (Javascript) binding port for JSONSki
+
 JSONSki is **a streaming JSONPath processor** with **fast-forward** functionality. During the streaming, it can automatically fast-forward over certain JSON substructures that are irrelavent to the query evaluation, without parsing them in detail. To make the fast-forward efficient, JSONSki features a highly bit-parallel solution that intensively utilizes bitwise and SIMD operations that are prevelent on modern CPUs to implement the fast-forward APIs. For more details about JSONSki, please refer to our paper [1].
 
 ## NPM Package
@@ -11,6 +12,13 @@ npm i jsonski
 ```
 
 Node.js bindings for JSONSki, a faster JSON parser, currently the fastest JSON parser with an NPM package. JSONSki as well as jsonski_nodejs work on popular platforms such as OS X, Linux, and Windows.
+
+## Hardware requirements
+```
+CPUs: 64-bit ALU instructions, 256-bit SIMD instruction set, and the carry-less multiplication instruction (pclmulqdq)
+Operating System: Linux, MacOs (Intel Chips only) 
+C++ Compiler: g++ (7.4.0 or higher)
+```
 
 
 JSONSki_nodejs currently supports a single interface API to query preferrably large JSON data which needs to be present in a file. However, we are actively working on developing more user friendly functions
