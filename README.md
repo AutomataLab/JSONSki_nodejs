@@ -26,7 +26,7 @@ Before starting to use Node-API you need to assure you have the following prereq
 
 **Node.JS (v14 and above)** see: [Installing Node.js](https://nodejs.org/)
 
-**Python (v3.x and above)** see: [Installing Python](https://www.python.org/downloads/release/python-3100/)
+**Python (v3.7 and above)** see: [Installing Python](https://www.python.org/downloads/release/python-3100/)
 
 **C++ : g++ (7.4.0 or higher)** see: [Installing C++](https://gcc.gnu.org/install/)
 
