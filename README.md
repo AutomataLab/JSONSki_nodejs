@@ -21,7 +21,18 @@ C++ Compiler: g++ (7.4.0 or higher)
 ```
 
 
-JSONSki_nodejs currently supports a single interface API to query preferrably large JSON data which needs to be present in a file. However, we are actively working on developing more user friendly functions
+## Software requirements
+
+Before starting to use Node-API you need to assure you have the following prerequisites:
+
+**Node.JS (v12 and above)** see: [Installing Node.js](https://nodejs.org/)
+
+**Python (v3.x and above)** see: [Installing Python](https://www.python.org/downloads/release/python-3100/)
+
+**C++ : g++ (7.4.0 or higher)** see: [Installing C++](https://gcc.gnu.org/install/)
+
+
+
 
 ## Usage
 Below is an example usage of Jsonski npm package. 
