@@ -1,5 +1,5 @@
 # JSONSki
-JsonSki_Nodejs is Node.Js (Javascript) binding port for JSONSKI.
+JSONSki_Nodejs is Node.Js (Javascript) binding port for JSONSKI.
 JSONSki is **a streaming JSONPath processor** with **fast-forward** functionality. During the streaming, it can automatically fast-forward over certain JSON substructures that are irrelavent to the query evaluation, without parsing them in detail. To make the fast-forward efficient, JSONSki features a highly bit-parallel solution that intensively utilizes bitwise and SIMD operations that are prevelent on modern CPUs to implement the fast-forward APIs. For more details about JSONSki, please refer to our paper [1].
 
 ## NPM Package
@@ -63,7 +63,7 @@ The function returns a javascript string as the output of the given query.
 
 
 ## Benchmarking 
-Performance of JsonSki_nodejs is compared with simDjson_nodejs and Javascript Parsing  - https://github.com/gandharva26/benchmarking-jsonski
+Performance of JSONSki_nodejs is compared with simDjson_nodejs and Javascript Parsing  - https://github.com/gandharva26/benchmarking-jsonski
 
 
 
