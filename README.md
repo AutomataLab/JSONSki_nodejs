@@ -123,7 +123,7 @@ console.timeEnd();
 
 
 ## Benchmarking 
-Performance of JSONSki_nodejs is compared with simDjson_nodejs and Javascript Parsing  - https://github.com/AutomataLab/NPM-JSON-Parser-Benchmarking
+Performance of JSONSki_nodejs is compared with simdjson_nodejs and Javascript Parsing  - https://github.com/AutomataLab/NPM-JSON-Parser-Benchmarking
 
 
 
