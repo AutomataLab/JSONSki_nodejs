@@ -13,6 +13,12 @@ jobs:
     steps:
       - checkout
       - run:
+          name: clean
+          command: rm -r node_modules
+      - run:
+          name: change node version
+          command: nvm use 14
+      - run:
           name: install project
           command: npm install
       - run:
