@@ -9,15 +9,12 @@ workflows:
 jobs:
   build:
     docker:
-      - image: circleci/node:14.16.3
+      - image: circleci/node:14.21.2
     steps:
       - checkout
       - run:
           name: clean
           command: ls
-      - run:
-          name: change node version
-          command: nvm use 14
       - run:
           name: install project
           command: npm install
