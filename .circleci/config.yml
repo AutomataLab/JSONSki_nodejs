@@ -9,7 +9,7 @@ workflows:
 jobs:
   build:
     docker:
-      - image: circleci/node:14.21.2
+      - image: cimg/node:14.21.2
     steps:
       - checkout
       - run:
