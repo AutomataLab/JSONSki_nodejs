@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  node: cimg/node:14.19.3
+  node: cimg/node:19.7.0
 
 workflows:
   version: 2
@@ -19,10 +19,10 @@ jobs:
           command: ls
       - run:
           name : set up version
-          command:  nvm use 14
+          command:  nvm install 14
       - run:
           name: install project
-          command: npm install
+          command: ls && nvm use 14 && npm install
       - run:
           name: build project
           command: npm run build
