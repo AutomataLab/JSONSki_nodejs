@@ -1,13 +1,11 @@
 version: 2.1
 orbs:
-  node: cimg/node:19.7.0
-
+  node: circleci/node@5.1.0
 workflows:
   version: 2
   build:
     jobs:
       - build
-
 jobs:
   build:
     macos:
