@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  node: circleci/node@4.0.0
+  node: circleci/node@14.0.1
 
 workflows:
   version: 2
@@ -13,9 +13,6 @@ jobs:
     macos:
       xcode: 11.0.0
     steps:
-      - node/install:
-          node-version: "14.11.0"
-      - checkout:
       -run:
           name: checkout
           command: checkout
