@@ -1,3 +1,8 @@
+[![CircleCI](https://circleci.com/gh/AutomataLab/JSONSki_nodejs.svg?style=shield&circle-token=daf002fef2464bc57675d6a3dc072485f27b7bbc)](https://app.circleci.com/pipelines/github/AutomataLab/JSONSki_nodejs)  ![GitHub](https://img.shields.io/github/license/AutomataLab/JSONSki_nodejs)
+![npm](https://img.shields.io/npm/dt/jsonski?label=npm%20downloads)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/AutomataLab/jsonski_nodejs)
+![](https://img.shields.io/badge/linux-macos-green)
+
 # JSONSki
 JSONSki_Nodejs is the Node.Js (Javascript) binding port for JSONSki
 
@@ -38,7 +43,7 @@ Before starting to use Node-API you need to assure you have the following prereq
 
 - Node.JS (v14 and above) see: [Installing Node.js](https://nodejs.org/)
 
-- Python (v3.7 and above) see: [Installing Python](https://www.python.org/downloads/release/python-3100/)
+- Python (v3.9) see: [Installing Python](https://www.python.org/downloads/release/python-3100/)
 
 - C++ : g++ (v7.4.0 and above) see: [Installing C++](https://gcc.gnu.org/install/)
 
