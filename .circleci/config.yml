@@ -13,9 +13,7 @@ jobs:
     macos:
       xcode: 11.0.0
     steps:
-      -run:
-          name: checkout
-          command: checkout
+      - checkout
       - run:
           name: clean
           command: ls
