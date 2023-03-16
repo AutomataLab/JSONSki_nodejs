@@ -1,4 +1,6 @@
 version: 2.1
+orbs:
+  node: circleci/node@4.0.0
 
 workflows:
   version: 2
@@ -7,9 +9,12 @@ workflows:
       - build
 
 jobs:
-  build:
-    docker:
-      - image: cimg/node:14.21.2
+  test-and-build:
+    macos:
+      xcode: 11.0.0
+    steps:
+      - node/install:
+          node-version: "14.11.0"
     steps:
       - checkout
       - run:
