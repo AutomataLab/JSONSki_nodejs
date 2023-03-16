@@ -18,6 +18,9 @@ jobs:
           name: clean
           command: ls
       - run:
+          name : set up version
+          command: nvm use 14
+      - run:
           name: install project
           command: npm install
       - run:
