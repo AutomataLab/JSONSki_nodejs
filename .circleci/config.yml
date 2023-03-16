@@ -1,0 +1,29 @@
+version: 2.1
+orbs:
+  node: circleci/node@5.1.0
+  python: circleci/python@2.1.1
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build
+jobs:
+  build:
+    macos:
+      xcode: 14.2.0
+    steps:
+      - checkout
+      - run:
+          name: clean
+          command: ls
+      - run:
+          name : set up node version
+          command:  nvm install 14
+      - run:
+          name: install python
+          command:  pyenv install 3.9.0 && pyenv global 3.9.0 
+      - run:
+          name: run project
+          command: nvm use 14 && npm install && npm run build
+        
+     

@@ -15,10 +15,11 @@
          # Here all your CFLAGS
        ],
        "cflags_cc": [
+    
        # Here all your C ++ FLAGS
        ],
            "xcode_settings": {
-        "OTHER_CFLAGS": ["-O3", "-std=c++11", "-mavx", "-mavx2",  "-msse", "-msse2", "-msse4", "-msse4.2", "-mpclmul", "-lpthread "],
+        "OTHER_CFLAGS": ["-O3", "-std=c++11", "-mpclmul", "-lpthread", "-march=native"],
         "GCC_ENABLE_CPP_EXCEPTIONS": "YES"
       },
         'include_dirs': [
