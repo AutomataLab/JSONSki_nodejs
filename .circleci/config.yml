@@ -19,7 +19,7 @@ jobs:
           command: ls
       - run:
           name : set up version
-          command: nvm install 14 && nvm use 14
+          command: brew install node@14 && nvm use 14
       - run:
           name: install project
           command: npm install
