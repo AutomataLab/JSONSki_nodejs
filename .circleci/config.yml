@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  node: cimg/node:14.21.2
+  node: cimg/node:14.19.3
 
 workflows:
   version: 2
