@@ -9,14 +9,16 @@ workflows:
       - build
 
 jobs:
-  test-and-build:
+  build:
     macos:
       xcode: 11.0.0
     steps:
       - node/install:
           node-version: "14.11.0"
-    steps:
-      - checkout
+      - checkout:
+      -run:
+          name: checkout
+          command: checkout
       - run:
           name: clean
           command: ls
