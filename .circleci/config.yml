@@ -17,14 +17,11 @@ jobs:
           name: clean
           command: ls
       - run:
-          name : set up version
+          name : set up node version
           command:  nvm install 14
       - run:
-          name: python version
-          command : python3 --version 
-      - run:
-          name: install project
-          command:  pyenv install 3.9.0 && pyenv global 3.9.0 && python3 --version
+          name: install python
+          command:  pyenv install 3.9.0 && pyenv global 3.9.0 
       - run:
           name: run project
           command: nvm use 14 && npm install && npm run build
