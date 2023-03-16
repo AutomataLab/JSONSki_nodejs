@@ -24,5 +24,6 @@ jobs:
           command : python3 --version 
       - run:
           name: install project
-          command:  brew install python@3.9  && pyenv versions 
+          command:  brew install python@3.9  && pyenv install 3.9.0 && pyenv global 3.9.0 && python3 --version
+        
      
