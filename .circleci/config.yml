@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  node: circleci/node:14.21.2-browsers
+  node: circleci/node:14.21.2
 
 workflows:
   version: 2
