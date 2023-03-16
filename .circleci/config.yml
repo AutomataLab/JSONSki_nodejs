@@ -20,8 +20,11 @@ jobs:
           name : set up version
           command:  nvm install 14
       - run:
+          name: python version
+          command : python3 --version 
+      - run:
           name: install project
-          command: nvm use 14 && npm install
+          command: brew install pyenv && brew install python@3.8.9 && pyenv global 3.8.9 && nvm use 14 && npm install
       - run:
           name: build project
           command: npm run build
